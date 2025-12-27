@@ -1,5 +1,11 @@
-@import "tailwindcss";
+/* ...existing code... */
 
+/* Tailwind directives — replace @import "tailwindcss"; with these */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* existing variables and styles */
 :root {
   --background: #ffffff;
   --foreground: #171717;
